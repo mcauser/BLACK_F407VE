@@ -12,10 +12,10 @@ You can buy one for around $12 USD on [AliExpress](https://www.aliexpress.com/it
 
 ### Build and deploy the firmware:
 
-* Clone the board definitions to your [MicroPython](https://github.com/micropython/micropython) stmhal/boards folder.
+* Clone the board definitions to your [MicroPython](https://github.com/micropython/micropython) ports/stm32/boards folder.
 
 ```
-cd micropython/stmhal/boards
+cd micropython/ports/stm32/boards
 git clone https://github.com/mcauser/BLACK_F407VE.git
 ```
 
@@ -24,7 +24,7 @@ git clone https://github.com/mcauser/BLACK_F407VE.git
 * Connect the board via USB
 
 ```
-cd micropython/stmhal
+cd micropython/ports/stm32
 make BOARD=BLACK_F407VE
 make BOARD=BLACK_F407VE deploy
 ```
