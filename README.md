@@ -62,8 +62,8 @@ $ screen /dev/tty.usbmodem1422
 * AMS1117-3.3V: 3.3V LDO voltage regulator, max current 800mA
 * Micro USB for power and comms
 * Red power LED D1
-* Red user LED D2 (PA6)
-* Red user LED D3 (PA7)
+* Red user LED D2 (PA6) active low
+* Red user LED D3 (PA7) active low
 * 2x jumpers for bootloader selection
 * Reset button, Wakeup button, 2x user buttons K0 (PE4) and K1 (PE3)
 * 2x24 side pins + 2x16 bottom pins + 1x4 ISP pins
@@ -81,3 +81,5 @@ $ screen /dev/tty.usbmodem1422
 
 * [STM32F407VE on st.com](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f407-417/stm32f407ve.html)
 * [Buy on AliExpress](https://www.aliexpress.com/item/Free-shipping-STM32F407VET6-development-board-Cortex-M4-STM32-minimum-system-learning-board-ARM-core-board/32618222721.html) or search for "STM32F407VET6"
+* [STM32F407VET6 datasheet](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_datasheet.pdf)
+* [STM32F407VET6 schematics](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_schematics.pdf)
