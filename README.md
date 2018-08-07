@@ -12,7 +12,7 @@ You can buy one for around $12 USD on [AliExpress](https://www.aliexpress.com/it
 
 ### Build and deploy the firmware:
 
-* Clone the board definitions to your [MicroPython](https://github.com/micropython/micropython) ports/stm32/boards folder.
+* Clone the board definitions to your [MicroPython](https://github.com/micropython/micropython) `ports/stm32/boards` folder.
 
 ```
 cd micropython/ports/stm32/boards
@@ -34,7 +34,7 @@ make BOARD=BLACK_F407VE deploy
 * Connect the board via USB
 
 ```
-$ screen /dev/tty.usbmodem1422
+screen /dev/tty.usbmodem1422
 ```
 
 ### Specifications:
@@ -83,3 +83,7 @@ $ screen /dev/tty.usbmodem1422
 * [Buy on AliExpress](https://www.aliexpress.com/item/Free-shipping-STM32F407VET6-development-board-Cortex-M4-STM32-minimum-system-learning-board-ARM-core-board/32618222721.html) or search for "STM32F407VET6"
 * [STM32F407VET6 datasheet](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_datasheet.pdf)
 * [STM32F407VET6 schematics](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_schematics.pdf)
+
+## License
+
+Licensed under the [MIT License](http://opensource.org/licenses/MIT).
