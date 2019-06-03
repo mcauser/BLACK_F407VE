@@ -1,8 +1,8 @@
-# Black STM32F407VET6
+# MCUDev Black STM32F407VET6
 
-MicroPython board definition files for the unbranded black STM32F407VET6 dev board.
+MicroPython board definition files for the MCUDev black STM32F407VET6 dev board.
 
-**Brand:** Unbranded/Generic
+**Brand:** MCUDev
 
 **Markings:** STM32F4XX STM32_F4VE V2.0 1509
 
@@ -81,6 +81,7 @@ screen /dev/tty.usbmodem1422
 
 * [STM32F407VE on st.com](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f407-417/stm32f407ve.html)
 * [Buy on AliExpress](https://www.aliexpress.com/item/Free-shipping-STM32F407VET6-development-board-Cortex-M4-STM32-minimum-system-learning-board-ARM-core-board/32618222721.html) or search for "STM32F407VET6"
+* [Buy on Taobao](https://item.taobao.com/item.htm?id=523083108350)
 * [STM32F407VET6 datasheet](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_datasheet.pdf)
 * [STM32F407VET6 schematics](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_schematics.pdf)
 
