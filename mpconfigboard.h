@@ -7,7 +7,7 @@
 #define MICROPY_HW_ENABLE_RTC       (1)
 #define MICROPY_HW_ENABLE_DAC       (1)
 #define MICROPY_HW_ENABLE_USB       (1)
-#define MICROPY_HW_ENABLE_SDCARD    (0)		// it has a sd scard, but i am not sure what the detect pin is, yet
+#define MICROPY_HW_ENABLE_SDCARD    (1)		// it has a sd scard, but no detect pin
 
 // HSE is 8MHz
 #define MICROPY_HW_CLK_PLLM (8) // divide external clock by this to get 1MHz
